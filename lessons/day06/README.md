@@ -16,3 +16,4 @@
 Implicit dependency: In this process the property of previous task will be used in next task to maintain that depedency.
 
 Explicit dependency: We have syntax to maintain this dependency.
+depends_on = [ azure_resource_group.example ]
